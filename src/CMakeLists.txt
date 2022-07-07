@@ -10,6 +10,6 @@ set(SOURCE_LIB utils.c ari.c ppm.c)
 
 add_library(utils STATIC ${SOURCE_LIB})
 
-add_executable(compress ${SOURCE_EXE})
+add_executable(compress.exe ${SOURCE_EXE})
 
-target_link_libraries(compress utils)
+target_link_libraries(compress.exe utils)

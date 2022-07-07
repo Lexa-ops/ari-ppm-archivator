@@ -1,0 +1,4 @@
+/home/alexey/compressor/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alexey/compressor/src/cmake-build-debug/CMakeFiles/compress.dir
+/home/alexey/compressor/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alexey/compressor/src/cmake-build-debug/CMakeFiles/utils.dir

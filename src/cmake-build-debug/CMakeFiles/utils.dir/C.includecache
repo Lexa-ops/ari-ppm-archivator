@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexey/compressor/src/ari.c
+ari.h
+/home/alexey/compressor/src/ari.h
+stdio.h
+-
+
+/home/alexey/compressor/src/ari.h
+stdio.h
+-
+
+/home/alexey/compressor/src/ppm.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+ppm.h
+/home/alexey/compressor/src/ppm.h
+
+/home/alexey/compressor/src/ppm.h
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+

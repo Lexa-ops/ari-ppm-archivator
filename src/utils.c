@@ -13,7 +13,7 @@ Options\n\n\
   --input  <file>            = Specify input file to compress/decompress.\n\
   --output <file>            = Specify output file to write a result.\n\
   --mode   {c | d}           = Use specified mode, `c` to compress and `d` to decompress.\n\
-  --method {ari | ppm} = Use specified method of data compression/decompression.\n";
+  --method {ari | ppm}       = Use specified method of data compression/decompression.\n";
 
     CompressOptions *opts = default_config();
 

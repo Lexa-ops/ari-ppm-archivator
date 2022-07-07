@@ -24,4 +24,4 @@ Example
   ./compress.exe --input test.txt --output code.txt --method ari --mode c
 ```
 # Configurating
-You can change ```NUM_OF_TABLES``` and ```AGRESSION``` in ```config.h``` for arithmetic compressor. ```NUM_OF_TABLES``` is the number of character code tables, each of which uses its aggressiveness defined in the ```AGRESSION```, so that during encoding it is possible to choose the optimal option. Aggressiveness is responsible for the rate of change in character frequencies, which affects the rate of "forgetting" characters in a dynamically changing table.
+You can change ```NUM_OF_TABLES``` and ```AGRESSION``` in ```config.h``` for arithmetic compressor. ```NUM_OF_TABLES``` is the number of character code tables, each of which uses its aggressiveness defined in the ```AGRESSION```, so that during encoding it is possible to choose the optimal option. Aggressiveness is responsible for the rate of change in character frequencies, which affects the rate of "forgetting" characters in a dynamically changing table. (It is necessary that the size of ```AGRESSION``` was equal to ```NUM_OF_TABLES```.)

@@ -1,7 +1,7 @@
 # ari-ppm-archivator
 This is my decoder/encoder loseless archiving using methods such as prediction by partial matching and arithmetic compression with multiple coding tables and customizable aggressiveness.
 # Building
-For build this project use
+For build this project in the repository directory use
 ```bibtex
   cmake src
   make

@@ -1,4 +1,5 @@
 #include "ari.h"
+#include "config.h"
 #include <stdio.h>
 
 enum
@@ -10,9 +11,8 @@ enum
     SECTION_SIZE = 0xffff,
     CODE_SIZE = 257,
     FIRST_BIT = 0x80,
-    NUM_OF_TABLES = 3
 };
-int AGRESSION[NUM_OF_TABLES] = {5, 15, 26};
+//NUM_OF_TABLES and AGRESSION from config.h 
 
 int read_bit(FILE *ifp)
 {

@@ -2,17 +2,17 @@
 This is my decoder/encoder loseless archiving using methods such as prediction by partial matching and arithmetic compression with multiple coding tables and customizable aggressiveness.
 # Building
 For build this project in the repository directory use
-```bibtex
+```shell
   cmake src
   make
 ```
 # Testing
 Usage
-```bibtex
+```shell
   ./compress.exe [options]
 ```
 Options
-```bibtex
+```shell
   --help                     = Print usage information and exit.
   --input  <file>            = Specify input file to compress/decompress.
   --output <file>            = Specify output file to write a result.
@@ -20,7 +20,7 @@ Options
   --method {ari | ppm}       = Use specified method of data compression/decompression.
 ```
 Example
-```bibtex
+```shell
   ./compress.exe --input test.txt --output code.txt --method ari --mode c
 ```
 # Configurating

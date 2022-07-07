@@ -1,0 +1,2 @@
+enum {NUM_OF_TABLES = 3};
+int AGRESSION[NUM_OF_TABLES] = {5, 15, 26};

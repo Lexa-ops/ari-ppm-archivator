@@ -22,4 +22,4 @@ Options
 Example
 ```bibtex
   ./compress.exe --input test.txt --output code.txt --method ari --mode c
-``
+```
